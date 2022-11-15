@@ -1,0 +1,6 @@
+msg-template="{path}:{module}:{line}: [{msg_id}({symbol}), {obj}] {msg}"
+
+	[tool.pylint.'FORMAT']
+	# Maximum number of characters on a single line.
+	max-line-length=120
+	# Maximum number of arguments that a functi
